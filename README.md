@@ -1,23 +1,23 @@
 # Nexmoes
-OneIndex 自带主题 nexmoe 的美化修改 基于Zisbusy制作的 [nexmoe主题](https://github.com/Zisbusy/OneIndex-theme) 的二次修改
+OneIndex 自带主题 nexmoe 的美化修改 基于：
+1. [Zisbusy的OneIndex-theme主题](https://github.com/Zisbusy/OneIndex-theme)
+2. [dl233的OneIndex-theme-nexmoes](https://github.com/dl233/OneIndex-theme-nexmoes)
 
-## 更新了什么(2020-7-11)
+## Update(2020.09.07)
 
-1. 优化了本地资源目录，修复伪静态环境下的样式及资源加载不正确的情况。
-2. 已经安装过的，只需要替换 `nexmoes`目录下的 `layout.php` 文件即可。
+改`layout.php`内部文件的style.css、favicon站点图片、头像为jsdelivr CND。
 
 ## 如何使用
-
-1. 将`nexmoes`文件夹放在网站根目录下的`view`文件夹里。
-2. 进去oneindex管理页面，在网站主题选择 `nexmoes`，保存即可。
-3. 头像可通过替换`picture`文件夹下的`logo.jpg`实现，博客地址及歌单根据需要修改`layout.php`。
-
-## 演示效果
-![](https://s1.ax1x.com/2020/04/07/G2dci8.png)
+1. fork本项目到自己Github
+2. 根据自己需要，改fork版本的`theme/style.css`、`theme/favicon.png`和`picture/logo.png`文件。
+3. 对fork版本打tag并改`layout.php`里的https://cdn.jsdelivr.net/gh/Mintimate/OneIndex-theme-nexmoes@latest替换为自己GitHub
+4. 下载自己项目master到`view`
+5. 进去oneindex管理页面，在网站主题选择 `nexmoes`，保存即可。
 
 ## 演示地址
 1. [http://demo.bendaye.cf/](http://demo.bendaye.cf/)
 2. [http://pan.bendaye.cf/](http://pan.bendaye.cf/)
+3. [https://mintimate.tk](https://mintimate.tk/)
 
 ## 调用
  [二次元图库](http://api.mtyqx.cn/) 。

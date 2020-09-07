@@ -4,9 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
 	<title><?php e(config('site_name'));?> - 私人云服务</title>
-	<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Mintimate/OneIndex-theme-nexmoes@latest/nexmoes/theme/favicon.ico">
+	<!-- 以下替换为自己GitHub favicon站点图片 -->
+	<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Mintimate/OneIndex-theme-nexmoes@latest/nexmoes/theme/favicon.png">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">
-	<link rel="stylesheet"https://cdn.jsdelivr.net/gh/Mintimate/OneIndex-theme-nexmoes@latest/nexmoes/theme/style.css">
+	<!-- 以下替换为自己GitHub style -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Mintimate/OneIndex-theme-nexmoes@latest/nexmoes/theme/style.css">
 	<script src="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/js/mdui.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
@@ -15,10 +17,12 @@
 <body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
 	<header class="nav">
 		<div class="navSize">
-			<a href="/"><img class="avatar" src="https://cdn.jsdelivr.net/gh/Mintimate/OneIndex-theme-nexmoes@latest/nexmoes/picture/logo.jpg" /></a>
+		<!-- 以下替换为自己GitHub 头像 -->
+			<a href="/"><img class="avatar" src="https://cdn.jsdelivr.net/gh/Mintimate/OneIndex-theme-nexmoes@latest/nexmoes/picture/logo.png" /></a>
 			<div class="navRight">
 				<ul class="navul">
-					<li class="navli"><a href="//bilibili2233.cf" target="_blank">博客</a></li>
+					<!-- 以下替换为自己博客 -->
+					<li class="navli"><a href="//mintimate.cn" target="_blank">博客</a></li>
 					<li class="navli"><a href="//<?php print($_SERVER['HTTP_HOST']) ?>/?/login">登陆</a></li>
 				</ul>
 				<div class="icon"></div>
