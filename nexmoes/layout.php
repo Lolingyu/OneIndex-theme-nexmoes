@@ -5,10 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
 	<title><?php e(config('site_name'));?> - 私人云服务</title>
 	<!-- 以下替换为自己GitHub favicon站点图片 -->
-	<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Mintimate/OneIndex-theme-nexmoes@latest/nexmoes/theme/favicon.png">
+	<link rel="shortcut icon" href="https://github.com/Lolingyu/OneIndex-theme-nexmoes/blob/master/nexmoes/theme/favicon.png">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">
 	<!-- 以下替换为自己GitHub style -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Mintimate/OneIndex-theme-nexmoes@latest/nexmoes/theme/style.css">
+	<link rel="stylesheet" href="https://github.com/Lolingyu/OneIndex-theme-nexmoes/blob/master/nexmoes/theme/style.css">
 	<script src="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/js/mdui.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
@@ -18,13 +18,9 @@
 	<header class="nav">
 		<div class="navSize">
 		<!-- 以下替换为自己GitHub 头像 -->
-			<a href="/"><img class="avatar" src="https://cdn.jsdelivr.net/gh/Mintimate/OneIndex-theme-nexmoes@latest/nexmoes/picture/logo.png" /></a>
+			<a href="/"><img class="avatar" src="https://s.gravatar.com/avatar/b8ccb191c244e104813a49c8aa678723?s=80" /></a>
 			<div class="navRight">
-				<ul class="navul">
-					<!-- 以下替换为自己博客 -->
-					<li class="navli"><a href="//mintimate.cn" target="_blank">博客</a></li>
-					<li class="navli"><a href="//<?php print($_SERVER['HTTP_HOST']) ?>/?/login">登陆</a></li>
-				</ul>
+				
 				<div class="icon"></div>
 			</div>
 		</div>
